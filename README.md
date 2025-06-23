@@ -25,7 +25,7 @@ This tool is designed for Android modders and device maintainers who want a simp
 
 ##  ⚡ Contribute
 
-Have feedback or ideas?  Head over to the **[Issues section](https://github.com/NoahDomingues/Auto-TWRP-Builder/issues)** or open a **[pull request](https://github.com/NoahDomingues/Auto-TWRP-Builder/pulls)** to improve the tool.
+Have feedback or ideas?  Head over to the **[Issues section](https://github.com/NoahDomingues/MTK-Toolbox/issues)** or open a **[pull request](https://github.com/NoahDomingues/MTK-Toolbox/pulls)** to improve the tool.
 
 ## 🤝 Support
 
@@ -34,8 +34,6 @@ If you run into any issues, check out our **[Discord server](https://discord.gg/
 [<img src="https://github.com/user-attachments/assets/f61046f5-1dc5-4b0c-87f8-4a94d6cbac96">](https://discord.gg/3zbfaTNN7V)
 
 **⭐ If this tool was of any use to you, please consider giving it a Star - it would make my day! ⭐**
-
-Thanks to **[ColdWindScholar](https://github.com/ColdWindScholar)** for building the [initial project](https://github.com/ColdWindScholar/Auto-Twrp-Builder) from which this was forked.
 
 [<img src="https://img.shields.io/badge/GitHub-Actions-blue?style=for-the-badge&logo=github-actions&logoColor=white">](https://github.com/NoahDomingues/Auto-TWRP-Builder/actions) [<img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white">](https://discord.gg/3zbfaTNN7V)
 
