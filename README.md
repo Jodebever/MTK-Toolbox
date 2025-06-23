@@ -14,6 +14,13 @@ Currently, **MTK Toolbox** includes the following tools:
 
 **MTK Toolbox is still in development, and more tools are being added - so check back here for updates, and be sure to watch this repository.**
 
+## 📥 Installation
+
+MTK Toolbox is a portable application—you don’t need a formal installer. Just grab the latest build from our **[Releases](https://github.com/NoahDomingues/MTK-Toolbox/releases)** section:
+
+- **Windows**: Download the `.exe` and double-click the downloaded file to launch.
+- **Linux**: Install [WINE](https://linuxconfig.org/installing-wine), download the `.exe`, then run the following command via terminal: `wine "MTK Toolbox.exe"`.
+
 ## 💡 Usage
 
 Launch the toolbox, then follow the on-screen instructions to use it. Each tool, such as MTK ROM Porter or Android IMG Editor, will have an associated number printed before it. Enter the number of the tool you would like to use, followed by Enter. The selected tool will then launch, and the toolbox will return to the main menu.
