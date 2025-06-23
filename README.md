@@ -1,6 +1,6 @@
 # MTK Toolbox
 
-A one-click automated TWRP compiler for Android devices. 🔧
+An all-in-one set of tools for modifying and tweaking MediaTek (MTK) devices. 🧰
 
 [<img src="https://github.com/user-attachments/assets/9fdc99bb-dd90-4572-ad78-e824e6e7c64b">](https://discord.gg/3zbfaTNN7V)
 
