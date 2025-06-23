@@ -1,8 +1,8 @@
-# Auto TWRP Builder
+# MTK Toolbox
 
 A one-click automated TWRP compiler for Android devices. 🔧
 
-[<img src="https://github.com/user-attachments/assets/0a4bb969-dec8-42f2-afd8-0858283ac3fe">](https://discord.gg/3zbfaTNN7V)
+[<img src="https://github.com/user-attachments/assets/9fdc99bb-dd90-4572-ad78-e824e6e7c64b">](https://discord.gg/3zbfaTNN7V)
 
 ## 💡 Usage
 
