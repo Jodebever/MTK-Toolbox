@@ -6,10 +6,10 @@ An all-in-one set of tools for modifying and tweaking MediaTek (MTK) devices. �
 
 ## 🛠️ Tools
 
-Currently, MTK Toolbox includes the following tools:
+Currently, **MTK Toolbox** includes the following tools:
 
 - **[MTK ROM Porter](https://github.com/NoahDomingues/MTK-ROM-Porter)** (for porting firmware to MTK devices)
-- **[Android .IMG Editor](https://github.com/NoahDomingues/Android-IMG-Editor)** (for modifying `system.img` and `vendor.img` ROM files)
+- **[Android IMG Editor](https://github.com/NoahDomingues/Android-IMG-Editor)** (for modifying `system.img` and `vendor.img` ROM files)
 - **[Auto TWRP Builder](https://github.com/NoahDomingues/Auto-TWRP-Builder)** (for building TWRP recovery images for MTK devices)
 
 **MTK Toolbox is still in development, and more tools are being added - so check back here for updates, and be sure to watch this repository.**
