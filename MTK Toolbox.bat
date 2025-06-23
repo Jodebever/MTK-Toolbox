@@ -1,6 +1,5 @@
 ECHO OFF
 CLS
-
 setlocal
 title MTK Toolbox
 
@@ -59,19 +58,32 @@ echo DISCORD SERVER: https://discord.gg/3zbfaTNN7V
 echo.
 echo 1 - MediaTek ROM Porter
 echo 2 - Android IMG Editor
-echo 3 - TWRP Recovery Builder (Online)
-echo 4 - Exit
+echo 3 - Auto TWRP Recovery Builder (Online)
+echo 4 - Auto TWRP Recovery Builder (Local)
+echo 5 - Exit
 echo.
 set /p M=Select an option:
 
 if "%M%"=="1" goto ROMPORTER
 if "%M%"=="2" goto IMGEDITOR
 if "%M%"=="3" goto OPENLINK
-if "%M%"=="4" exit
+if "%M%"=="4" goto TWRPLOCAL
+if "%M%"=="5" exit
 goto MENU
 
 :ROMPORTER
 cls
+echo.
+set /P "=/////////////////////////////////////////////////////////////////////////////" < NUL & echo/
+set /P "=  __  __ _____ _  __  _____           _ _                                " < NUL & echo/
+set /P "= |  \/  |_   _| |/ / |_   _|__   ___ | | |__   _____  __                " < NUL & echo/
+set /P "= | |\/| | | | | ' /    | |/ _ \ / _ \| | '_ \ / _ \ \/ /                " < NUL & echo/
+set /P "= | |  | | | | | . \    | | (_) | (_) | | |_) | (_) >  <                 " < NUL & echo/
+set /P "= |_|  |_| |_| |_|\_\   |_|\___/ \___/|_|_.__/ \___/_/\_\               " < NUL & echo/
+set /P "=/////////////////////////////////////////////////////////////////////////////" < NUL & echo/
+echo.
+echo DISCORD SERVER: https://discord.gg/3zbfaTNN7V
+echo.
 echo Launching MediaTek ROM Porter...
 start "" "%~dp0bin\MTK ROM Porter.exe"
 timeout /t 2 >nul
@@ -79,6 +91,17 @@ goto MENU
 
 :IMGEDITOR
 cls
+echo.
+set /P "=/////////////////////////////////////////////////////////////////////////////" < NUL & echo/
+set /P "=  __  __ _____ _  __  _____           _ _                                " < NUL & echo/
+set /P "= |  \/  |_   _| |/ / |_   _|__   ___ | | |__   _____  __                " < NUL & echo/
+set /P "= | |\/| | | | | ' /    | |/ _ \ / _ \| | '_ \ / _ \ \/ /                " < NUL & echo/
+set /P "= | |  | | | | | . \    | | (_) | (_) | | |_) | (_) >  <                 " < NUL & echo/
+set /P "= |_|  |_| |_| |_|\_\   |_|\___/ \___/|_|_.__/ \___/_/\_\               " < NUL & echo/
+set /P "=/////////////////////////////////////////////////////////////////////////////" < NUL & echo/
+echo.
+echo DISCORD SERVER: https://discord.gg/3zbfaTNN7V
+echo.
 echo Launching Android IMG Editor...
 start "" "%~dp0bin\Android IMG Editor.exe"
 timeout /t 2 >nul
@@ -86,7 +109,36 @@ goto MENU
 
 :OPENLINK
 cls
-echo Opening TWRP Recovery Builder in your browser...
+echo.
+set /P "=/////////////////////////////////////////////////////////////////////////////" < NUL & echo/
+set /P "=  __  __ _____ _  __  _____           _ _                                " < NUL & echo/
+set /P "= |  \/  |_   _| |/ / |_   _|__   ___ | | |__   _____  __                " < NUL & echo/
+set /P "= | |\/| | | | | ' /    | |/ _ \ / _ \| | '_ \ / _ \ \/ /                " < NUL & echo/
+set /P "= | |  | | | | | . \    | | (_) | (_) | | |_) | (_) >  <                 " < NUL & echo/
+set /P "= |_|  |_| |_| |_|\_\   |_|\___/ \___/|_|_.__/ \___/_/\_\               " < NUL & echo/
+set /P "=/////////////////////////////////////////////////////////////////////////////" < NUL & echo/
+echo.
+echo DISCORD SERVER: https://discord.gg/3zbfaTNN7V
+echo.
+echo Opening Auto TWRP Builder in your browser...
 start https://github.com/NoahDomingues/Auto-TWRP-Builder
+timeout /t 2 >nul
+goto MENU
+
+:TWRPLOCAL
+cls
+echo.
+set /P "=/////////////////////////////////////////////////////////////////////////////" < NUL & echo/
+set /P "=  __  __ _____ _  __  _____           _ _                                " < NUL & echo/
+set /P "= |  \/  |_   _| |/ / |_   _|__   ___ | | |__   _____  __                " < NUL & echo/
+set /P "= | |\/| | | | | ' /    | |/ _ \ / _ \| | '_ \ / _ \ \/ /                " < NUL & echo/
+set /P "= | |  | | | | | . \    | | (_) | (_) | | |_) | (_) >  <                 " < NUL & echo/
+set /P "= |_|  |_| |_| |_|\_\   |_|\___/ \___/|_|_.__/ \___/_/\_\               " < NUL & echo/
+set /P "=/////////////////////////////////////////////////////////////////////////////" < NUL & echo/
+echo.
+echo DISCORD SERVER: https://discord.gg/3zbfaTNN7V
+echo.
+echo Launching Auto TWRP Builder (Local)...
+start "" "%~dp0bin\Auto TWRP Builder.exe"
 timeout /t 2 >nul
 goto MENU
