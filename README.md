@@ -4,6 +4,16 @@ An all-in-one set of tools for modifying and tweaking MediaTek (MTK) devices. �
 
 [<img src="https://github.com/user-attachments/assets/9fdc99bb-dd90-4572-ad78-e824e6e7c64b">](https://discord.gg/3zbfaTNN7V)
 
+## 🛠️ Tools
+
+Currently, MTK Toolbox includes the following tools:
+
+- **[MTK ROM Porter](https://github.com/NoahDomingues/MTK-ROM-Porter**) (for porting firmware to MTK devices)
+- **[Android .IMG Editor](https://github.com/NoahDomingues/Android-IMG-Editor)** (for modifying `system.img` and `vendor.img` ROM files)
+- **[Auto TWRP Builder](https://github.com/NoahDomingues/Auto-TWRP-Builder)** (for building TWRP recovery images for MTK devices)
+
+**MTK Toolbox is still in development, and more tools are being added - so check back here for updates, and be sure to watch this repository.**
+
 ## 💡 Usage
 
 Launch the toolbox, then follow the on-screen instructions to use it. Each tool, such as MTK ROM Porter or Android IMG Editor, will have an associated number printed before it. Enter the number of the tool you would like to use, followed by Enter. The selected tool will then launch, and the toolbox will return to the main menu.
@@ -26,7 +36,7 @@ If you run into any issues, check out our **[Discord server](https://discord.gg/
 
 **⭐ If this tool was of any use to you, please consider giving it a Star - it would make my day! ⭐**
 
-[<img src="https://img.shields.io/badge/GitHub-Actions-blue?style=for-the-badge&logo=github-actions&logoColor=white">](https://github.com/NoahDomingues/Auto-TWRP-Builder/actions) [<img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white">](https://discord.gg/3zbfaTNN7V)
+[<img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white">](https://discord.gg/3zbfaTNN7V)
 
 
 <div align="center">
