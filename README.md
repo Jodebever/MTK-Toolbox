@@ -6,22 +6,13 @@ An all-in-one set of tools for modifying and tweaking MediaTek (MTK) devices. �
 
 ## 💡 Usage
 
-Follow these steps to generate your own TWRP build:
+Launch the toolbox, then follow the on-screen instructions to use it. Each tool, such as MTK ROM Porter or Android IMG Editor, will have an associated number printed before it. Enter the number of the tool you would like to use, followed by Enter. The selected tool will then launch, and the toolbox will return to the main menu.
 
-- **Step 1**: Fork this repository to your GitHub account.
-- **Step 2**: Use a tool like `bootimg` to unpack your `recovery.img`.  
-  Edit `default.prop` or `prop.default` by appending this line at the bottom:  
-  `ro.product.first_api_level=(your Android SDK version)`  
-  Then repack the recovery.
-- **Step 3**: Upload the repacked `recovery.img` to your forked repo and copy its direct link.
-- **Step 4**: Go to the **Actions** tab in your repo, and start a new workflow run.  
-  Paste the direct link and specify the desired TWRP version.
-- **Step 5**: Hit **Run workflow** and let the system build your TWRP image.
-- **Step 6**: After the build finishes, download the compiled TWRP recovery from the **Releases** section.
+![Screenshot of MTK Toolbox](https://github.com/user-attachments/assets/0881d08f-857b-464f-b869-c3df2bc28e73)
 
 ## 🧪 Built For
 
-This tool is designed for Android modders and device maintainers who want a simplified and automated way to generate recovery builds. Whether you're personalizing your device or contributing to the community, this tool should give you a head start.
+This tool is designed for MTK modders and device maintainers who want a single set of tools to help with their work. Whether you're personalizing your device or contributing to the community, this toolbox should give you a head start.
 
 ##  ⚡ Contribute
 
