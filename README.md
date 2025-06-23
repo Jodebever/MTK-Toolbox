@@ -25,7 +25,7 @@ MTK Toolbox is a portable application—you don’t need a formal installer. Jus
 
 Launch the toolbox, then follow the on-screen instructions to use it. Each tool, such as MTK ROM Porter or Android IMG Editor, will have an associated number printed before it. Enter the number of the tool you would like to use, followed by Enter. The selected tool will then launch, and the toolbox will return to the main menu.
 
-![Screenshot of MTK Toolbox](https://github.com/user-attachments/assets/0881d08f-857b-464f-b869-c3df2bc28e73)
+![Screenshot of MTK Toolbox](https://github.com/user-attachments/assets/c3184775-0e6e-4460-a44f-baed3c05c09a)
 
 ## 🧪 Built For
 
